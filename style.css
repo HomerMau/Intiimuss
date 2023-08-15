@@ -335,10 +335,6 @@ border-radius: 3rem;
 
 }
 
-}
-
-
-
 .sidebar h1 {
   margin: 5rem;
 text-transform: uppercase;
@@ -358,6 +354,10 @@ text-transform: uppercase;
   .box h2 {
   width: 80rem;
   }
+}
+
+
+
 
 
 
@@ -372,7 +372,7 @@ text-transform: uppercase;
 }
 
 
-  .box video {
+  .box video, .box img {
   padding: 0.3rem;
   background-color: rgb(175, 8, 159);
   border-radius: 3rem;
@@ -380,7 +380,12 @@ text-transform: uppercase;
 
 }
 
+.box img {
+width: 50%;
+height: fit-content;
 
+
+}
 
 @keyframes left-right {
   0% {
