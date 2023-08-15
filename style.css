@@ -231,6 +231,36 @@ border-radius: 3rem;
   
 }
 
+
+
+
+
+.boxes {
+  background-color:  beige;
+}
+
+  .box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+  .box video, .box img {
+  padding: 0.3rem;
+  background-color: rgb(175, 8, 159);
+  border-radius: 3rem;
+  
+
+}
+
+.box img {
+width: 50%;
+height: fit-content;
+
+
+}
+
 @media (min-width: 900px) {
   .page {
     display: grid;
@@ -359,33 +389,6 @@ text-transform: uppercase;
 
 
 
-
-
-.boxes {
-  background-color:  beige;
-}
-
-  .box {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-
-  .box video, .box img {
-  padding: 0.3rem;
-  background-color: rgb(175, 8, 159);
-  border-radius: 3rem;
-  
-
-}
-
-.box img {
-width: 50%;
-height: fit-content;
-
-
-}
 
 @keyframes left-right {
   0% {
