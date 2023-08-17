@@ -4,25 +4,13 @@
   box-sizing: border-box;
 }
 
-
-
-
-
-
-
 :root {
+  font-family: "Quantum Flat (BRK)", sans-serif;
 
+  font-family: "Quantum Round (BRK)", sans-serif;
+  font-family: "Quantum Taper (BRK)", sans-serif;
 
-                                                           
-                                                                    font-family: 'Quantum Flat (BRK)', sans-serif;
-                                                           
-                                                                    font-family: 'Quantum Round (BRK)', sans-serif;
-                                                                    font-family: 'Quantum Taper (BRK)', sans-serif;
-                                                
-
-
-
-  --ff-heading: 'Quantum Round (BRK)', sans-serif;
+  --ff-heading: "Quantum Round (BRK)", sans-serif;
   --ff-texting: "Roboto", sans-serif;
   --ff-page-text: "Roboto", sans-serif;
   --ff-footer: "Open Sans", sans-serif;
@@ -43,23 +31,22 @@
 }
 
 body {
-    background-color: var(--bg-primary);
+  background-color: var(--bg-primary);
+}
 
-  }
-  
-  .page {
-    margin: 0 auto;
-  }
-  
-  #logo {
-    animation: logoRotate 10s 2s infinite;
-  }
+.page {
+  margin: 0 auto;
+}
 
-  header {
+#logo {
+  animation: logoRotate 10s 2s infinite;
+}
+
+header {
   background-color: var(--hd-primary);
   display: grid;
   place-items: center;
-  
+
   animation: left-right 1000ms;
 }
 
@@ -88,8 +75,6 @@ span {
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  
-  
 }
 
 .text-desktop {
@@ -100,12 +85,12 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   font-family: var(--ff-texting);
   padding: 1.8rem 3.2rem 5rem;
-  
+
   background-color: var(--bg-primary);
-  
+
   animation: right-left 1500ms;
 }
 
@@ -121,7 +106,7 @@ main {
 
 .cards {
   margin-top: 5rem;
-  
+
   display: grid;
   gap: 3.2rem;
 }
@@ -149,7 +134,7 @@ main {
   border-radius: 2rem;
   text-align: center;
   padding: 0 2.4rem;
-  
+
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 
@@ -173,26 +158,22 @@ footer {
   padding: 2.5rem;
   background-color: rgb(244, 133, 236);
 }
-.pagTwo{
+.pagTwo {
   display: flex;
-  
+
   flex-direction: column;
   align-items: center;
 }
 
-
 .sidebar {
-  
   display: flex;
   align-items: center;
   flex-direction: column;
-   
 }
 
 .pagTwo h2 {
   text-align: center;
   font-family: var(--ff-page-text);
-  
 }
 .box {
   display: flex;
@@ -201,78 +182,61 @@ footer {
   margin-bottom: 3rem;
 }
 
-
 .box h2 {
   padding: 5rem 0 2rem;
-  
-  
+
   font-family: var(--ff-texting);
-    text-align: center;
-    width: 31.5rem;
-    font-weight: normal;
-    font-size: var(--fs-text);
-    line-height: 2.2rem;
-    -webkit-font-smoothing: antialiased;
-  
-  }
-  
-  
-  .sidebar img {
-    
-    margin-top: 3rem;
-    
-    width: 75%;
-    
-    border-radius: 3rem;
-  }
-  
-  
-  .box video {
-    width: 50%;
-    height: fit-content;
-    
-  }
-  
-  
-  
-  
-  
-  .boxes {
-    background-color:  beige;
-  }
-  
-  .box {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  text-align: center;
+  width: 31.5rem;
+  font-weight: normal;
+  font-size: var(--fs-text);
+  line-height: 2.2rem;
+  -webkit-font-smoothing: antialiased;
 }
 
+.sidebar img {
+  margin-top: 3rem;
 
-.box video, .box img {
+  width: 75%;
+
+  border-radius: 3rem;
+}
+
+.box video {
+  width: 50%;
+  height: fit-content;
+}
+
+.boxes {
+  background-color: beige;
+}
+
+.box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.box video,
+.box img {
   padding: 0.3rem;
   background-color: rgb(175, 8, 159);
   border-radius: 3rem;
-  
-  
 }
 
 .box img {
   width: 50%;
-height: fit-content;
-
-
+  height: fit-content;
 }
 
 .img {
-      align-items: center;
-    display: flex;
-    flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
-  }
-  
-  .img img {
+.img img {
   width: 95%;
-
 }
 
 @media (min-width: 900px) {
@@ -280,7 +244,7 @@ height: fit-content;
     display: grid;
     grid-template-columns: 1fr 3fr;
   }
-  
+
   .header {
     margin: 0;
     padding: 0;
@@ -291,19 +255,19 @@ height: fit-content;
     text-align: center;
     font-family: var(--ff-page-text);
     padding: 0rem 5.2rem;
-    
+
     font-size: 2rem;
-    
+
     margin-top: -10rem;
-    
+
     color: var(--fc-secondary);
   }
-  
+
   main {
     margin: 0;
     padding: 0;
   }
-  
+
   .text-mobile {
     display: none;
   }
@@ -320,7 +284,7 @@ height: fit-content;
   .cards div:nth-child(6) {
     display: block;
   }
-  
+
   .cards .card span {
     display: none;
   }
@@ -328,11 +292,11 @@ height: fit-content;
   .cards div:nth-child(1) {
     grid-area: A;
   }
-  
+
   .cards div:nth-child(2) {
     grid-area: B;
   }
-  
+
   .cards div:nth-child(3) {
     grid-area: C;
   }
@@ -346,63 +310,54 @@ height: fit-content;
   .cards div:nth-child(6) {
     grid-area: E;
   }
-  
+
   footer {
     display: block;
     margin-top: 2rem;
     margin-bottom: 6rem;
     font-size: 1.4rem;
   }
-  
+
   a {
     font-family: var(--ff-footer);
     font-weight: bold;
-    
+
     text-decoration: none;
     color: #4a4e69;
   }
   .pagTwo {
-  background-color: var(--hd-primary);
-  display: flex;
+    background-color: var(--hd-primary);
+    display: flex;
 
-  flex-direction: row;
+    flex-direction: row;
 
-
-  animation: left-right 1000ms;
+    animation: left-right 1000ms;
   }
 
   .sidebar {
-
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
 
-}
+  .sidebar h1 {
+    margin: 5rem;
+    text-transform: uppercase;
 
-.sidebar h1 {
-  margin: 5rem;
-text-transform: uppercase;
-
-
-  font-size: 4rem;
-  color: var(--fc-secondary);
-  font-weight: 400;
-  text-shadow: 0px 2px 2px var(--fc-shadow);
-
+    font-size: 4rem;
+    color: var(--fc-secondary);
+    font-weight: 400;
+    text-shadow: 0px 2px 2px var(--fc-shadow);
 
     font-family: var(--ff-heading);
-  font-weight: bolder;
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-}
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+  }
   .box h2 {
-  width: 80rem;
+    width: 80rem;
   }
 }
-
-
-
-
 
 @keyframes left-right {
   0% {
@@ -433,7 +388,7 @@ text-transform: uppercase;
     opacity: 0;
     transform: translateY(20px);
   }
-  
+
   100% {
     opacity: 1;
     transform: rotateY(0px);
